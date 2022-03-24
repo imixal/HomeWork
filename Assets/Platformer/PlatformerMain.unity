@@ -121,6 +121,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &192258564 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5862702911634392552, guid: 4d129b9ed3a37d2409dc99e5896bdaff,
+    type: 3}
+  m_PrefabInstance: {fileID: 102182228346218177}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &280282947 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7054792445624295839, guid: d07046e8573a0eb459fc200a67ec3b4d,
@@ -250,9 +256,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1123631172}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9dfe8a09fe644147b295edb07cf3c3f, type: 3}
+  m_Script: {fileID: 11500000, guid: a3d915c640e394342ac28b2db35039e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camTarget: {fileID: 192258564}
+  trackingSpeed: 0
 --- !u!1 &1644665111
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +533,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6852343907489253132, guid: bd6ec3bbd6d672949af272a9f7c866cb,
+        type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 1123631172}
+    - target: {fileID: 6852343907923810263, guid: bd6ec3bbd6d672949af272a9f7c866cb,
+        type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 1123631172}
+    - target: {fileID: 6852343908383192498, guid: bd6ec3bbd6d672949af272a9f7c866cb,
+        type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 1123631172}
     - target: {fileID: 6852343909290668621, guid: bd6ec3bbd6d672949af272a9f7c866cb,
         type: 3}
       propertyPath: m_LocalPosition.x
