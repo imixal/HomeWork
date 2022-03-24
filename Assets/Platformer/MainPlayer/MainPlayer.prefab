@@ -171,8 +171,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5957676468022463338}
+  - component: {fileID: 8465894634089877227}
   m_Layer: 0
-  m_Name: GroundCheker
+  m_Name: GroundChecker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -192,6 +193,22 @@ Transform:
   m_Father: {fileID: 5862702911634392552}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8465894634089877227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491007650082950965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f51398d5b6cd3fd408eb3908d0826b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkRadius: 0.5
+  layerGround:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &2518783234051177997
 GameObject:
   m_ObjectHideFlags: 0
