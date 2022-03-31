@@ -178,7 +178,7 @@ MonoBehaviour:
   levelPrefabs:
   - {fileID: 1068014308246738190, guid: bd6ec3bbd6d672949af272a9f7c866cb, type: 3}
   - {fileID: 5465775185890135855, guid: 5b4a0713adf3d364592d4ffc1b623150, type: 3}
-  playerViewPrefab: {fileID: 1107616595749507689, guid: a3d40255625fe40e2ae2908b0e1e91f6,
+  playerViewPrefab: {fileID: 4756322303074922342, guid: 4d129b9ed3a37d2409dc99e5896bdaff,
     type: 3}
   cameraFollowing: {fileID: 1123631176}
 --- !u!1 &1123631172
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camTarget: {fileID: 0}
-  trackingSpeed: 0
+  trackingSpeed: 15
 --- !u!114 &1243990573 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2411682530433866598, guid: f5eb712a313b64e5882ed207464f77d0,
