@@ -8,7 +8,7 @@ namespace Platformer.MainPlayer.Scripts
     {
         public float speed = 14f;
         public float accel = 6f;
-        public float jumpForce = 100f;
+        public float jumpForce = 300f;
 
         private float _direction;
         private Rigidbody2D _rb;

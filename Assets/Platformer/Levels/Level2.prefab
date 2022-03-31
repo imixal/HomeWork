@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 7352942043068166644}
   - component: {fileID: 7352942043068166647}
   - component: {fileID: 7352942043068166646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PathTilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2524,7 +2524,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 1.19, y: -0.38}
@@ -6069,7 +6069,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7352942044156715356}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.68, y: 17.71, z: 10.3}
+  m_LocalPosition: {x: 20.4, y: 23.7, z: 16}
   m_LocalScale: {x: 41.830017, y: 10.979839, z: 1}
   m_Children: []
   m_Father: {fileID: 7352942043365310902}
